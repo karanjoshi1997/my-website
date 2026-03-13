@@ -91,21 +91,33 @@ color:white;
 }
 
 .stadium-banner{
-height:350px;
+height:450px;
 
-background:linear-gradient(
-135deg,
-#07131f,
-#0d1b2a
-);
+background-image:
+linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)),
+url("stadium.jpg");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
 
 display:flex;
 align-items:center;
 justify-content:center;
 }
 
+.stadium-overlay{
+width:100%;
+height:100%;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:20px;
+}
+
 .stadium-content{
 text-align:center;
+max-width:800px;
 }
 
 .stadium-content h2{
@@ -115,6 +127,8 @@ margin-bottom:10px;
 
 .stadium-content p{
 color:#cbd5e1;
+font-size:1.1rem;
+line-height:1.8;
 }
 
 .card-grid{
@@ -203,6 +217,14 @@ grid-template-columns:1fr;
 
 .hero-title{
 font-size:3rem;
+}
+
+.stadium-content h2{
+font-size:2rem;
+}
+
+.stadium-content p{
+font-size:1rem;
 }
 
 }
