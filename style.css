@@ -206,3 +206,9 @@ font-size:3rem;
 }
 
 }
+
+.player-card a{
+text-decoration:none;
+color:inherit;
+display:block;
+}
