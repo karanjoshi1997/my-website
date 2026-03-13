@@ -3,37 +3,101 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My First Website</title>
+  <title>Cricket is Life</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Your Name</h1>
-    <p>Extreme beginner learning web development</p>
+  <header class="hero">
+    <div class="container">
+      <nav class="navbar">
+        <h1 class="logo">Cricket is Life</h1>
+        <a href="#contact" class="nav-button">Contact</a>
+      </nav>
+
+      <div class="hero-content">
+        <p class="tag">Welcome to my website</p>
+        <h2>Cricket is Life</h2>
+        <p class="intro">
+          I love cricket, follow great players, and enjoy learning more about
+          the game every day. This website is a simple tribute to some of the
+          most iconic cricketers.
+        </p>
+        <a href="#projects" class="main-button">View Cricketers</a>
+      </div>
+    </div>
   </header>
 
   <main>
-    <section>
-      <h2>About Me</h2>
+    <section class="about container">
+      <h2>About</h2>
       <p>
-        Hi, I’m learning how to build websites using HTML and CSS.
-        This is my first website.
+        This is my personal beginner website built with HTML and CSS. I wanted
+        to create something clean, modern, and based on my passion: cricket.
       </p>
     </section>
 
-    <section>
-      <h2>Projects</h2>
-      <p>Coming soon. I’m just getting started.</p>
+    <section id="projects" class="projects container">
+      <h2>List of Cricketers</h2>
+
+      <div class="card-grid">
+        <div class="card">
+          <h3>Virat Kohli</h3>
+          <p>
+            One of the best modern batters, known for intensity, consistency,
+            and chasing under pressure.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Sachin Tendulkar</h3>
+          <p>
+            A legendary cricketer admired around the world for his long career,
+            skill, and records.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>MS Dhoni</h3>
+          <p>
+            Famous for calm leadership, match finishing, and sharp wicketkeeping.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Rohit Sharma</h3>
+          <p>
+            Known for elegant batting, big scores, and powerful stroke play.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>AB de Villiers</h3>
+          <p>
+            Loved for creativity, innovation, and the ability to play shots all
+            around the ground.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Jasprit Bumrah</h3>
+          <p>
+            A world-class fast bowler known for accuracy, pace, and match-winning spells.
+          </p>
+        </div>
+      </div>
     </section>
 
-    <section>
+    <section id="contact" class="contact container">
       <h2>Contact</h2>
-      <p>Email: yourname@example.com</p>
+      <p>
+        Want to talk cricket? Reach me at:
+      </p>
+      <a href="mailto:Contactme@gmail.com" class="email-link">Contactme@gmail.com</a>
     </section>
   </main>
 
   <footer>
-    <p>© 2026 Your Name</p>
+    <p>© 2026 Cricket is Life</p>
   </footer>
 </body>
 </html>
